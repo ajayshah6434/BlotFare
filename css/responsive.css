@@ -1,0 +1,424 @@
+
+
+@media screen and (min-width: 1100px){
+    .container {
+        max-width: 1320px;
+        width: 100%;
+    }
+
+
+}
+
+@media screen and (max-width: 1200px){
+    .hero_btn::after {
+        right: -18px;
+        transform: rotate(136deg);
+    }
+    .hero_btn::before {
+        left: -21px;
+        transform: rotate(-55deg);
+    }
+    .earn .text_box {
+        padding: 55px 40px;
+    }
+    .nft_btn .btn {
+        width: 270px;
+    }
+    .comment_sec ul {
+        height: 330px;
+    }
+
+}
+
+@media screen and (max-width: 1024px){
+    header .navbar li.nav-item {
+        padding: 0 20px;
+    }
+    .hero_sec  img.img-fluid.logo_img {
+        margin-top: -50px;
+    }
+    .header_video {
+        height: 800px;
+    }
+    .hero_btn {
+        width: 45%;
+    }
+    .hero_link li, .hero_social li {
+        margin-right: 5px;
+    }
+    section.about.sec_padd{
+        padding-top: 0;
+        margin-top: -60px;
+    }
+    h2 {
+        font-size: 45px;
+    }
+    body {
+        font-size: 18px;
+    }
+    .earn_content {
+        top: 5%;
+    }
+    .earn .text_box {
+        padding: 20px 40px;
+    }
+    .about_btn {
+        margin-top: 15px;
+    }
+    .earn_video {
+        height: 588px;
+    }
+    .nft_btn .btn a {
+        font-size: 20px;
+    }
+    .nft_btn .btn {
+        width: 222px;
+    }
+    .nft_newbtn .btn {
+        font-size: 20px;
+    }
+    .nft h3 {
+        font-size: 30px;
+    }
+    .nft h5 {
+        font-size: 20px;
+    }
+    .learn_more h3 {
+        font-size: 35px;
+    }
+    .learn_more .text_box {
+        width: 80%;
+    }
+    .slider_box .img_box {
+        height: 400px;
+    }
+    /* .slick_box .slick-dots {
+        top: 52%;
+    } */
+    .slider_box .content h3 {
+        font-size: 30px;
+    }
+    .slider_box .content h4 {
+        font-size: 30px;
+    }
+    .buy_btn {
+        width: 70%;
+    }
+    .main_video .img_box {
+        top: 0%;
+    }
+    .watching {
+        padding: 21px 6px;
+        width: 73%;
+        font-size: 16px;
+    }
+    .chat_icon {
+        width: 27%;
+    }
+    .comment_sec p {
+        font-size: 15px;
+    }
+    .person_img {
+        padding-right: 5px;
+    }
+    .comment_sec {
+        padding: 5px;
+    }
+    .comment_sec ul {
+        height: 282px;
+    }
+    .main_video .img_box img {
+        width: 100%;
+        max-width: 60%;
+    }
+    .main_video .img_box {
+        top: 15%;
+    }
+    .comment_here input {
+        height: 60px;
+    }
+
+}
+
+
+@media screen and (max-width: 991px) {
+    .header_video {
+        height: 100%;
+    }
+    .fixed{
+        padding: 10px 15px;
+      }
+    
+    .hero_sec {
+        width: 100%;
+        margin-top: 25px;
+    }
+    .hero_sec .txet_box h1 {
+        font-size: 40px;
+    }
+    .hero_btn .btn {
+        height: 50px;
+        width: 200px;
+    }
+    .hero_btn .btn a {
+        font-size: 25px;
+    }
+    .hero_btn {
+        width: 35%;
+    }
+    .hero_btn::before {
+        width: 36%;
+        border-radius: 58%/100% 100% 0% 0%;
+    }
+    .hero_btn::after {
+        width: 35%;
+        border-radius: 58%/98% 100% 6% 0%;
+    }
+    .social_icon i.fa-brands {
+        font-size: 20px;
+        width: 40px;
+        padding: 11px;
+        height: 40px;
+    }
+    .header_video {
+        height: 600px;
+    }
+    .hero_social li span.social_text {
+        font-size: 10px;
+        padding: 12px 14px 8px 6px;
+    }
+    .hero_social li span.social_icon {
+        padding: 8px 3px 6px 3px;
+    }
+    .hero_social li span.social_text {
+        padding: 12px 9px 7px 6px;
+    }
+    .hero_link li a {
+        font-size: 14px;
+    }
+    h2 {
+        font-size: 30px;
+    }
+    body {
+        font-size: 15px;
+    }
+    .about_btn .btn a {
+        font-size: 20px;
+    }
+    .about_btn .btn {
+        width: 200px;
+        height: 60px;
+    }
+    video.header_video {
+        display: none;
+    }
+    .main_header{
+        background-image: url(../images/banner-bg.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    header {
+        position: relative;
+    }
+    section.about.sec_padd {
+        padding-top: 20px;
+        margin-top: 0;
+    }
+    .earn_video {
+        height: 100%;
+    }
+    .earn .text_box {
+        padding: 40px 40px;
+    }
+    .earn_content {
+        top: 7%;
+        left: 3%;
+    }
+    .nft_btn .btn a {
+        font-size: 16px;
+    }
+    .nft_btn .btn {
+        width: 170px;
+        height: 60px;
+    }
+    .row.nft_box {
+        padding: 10px 0px;
+        margin: 0 0 30px 0;
+    }
+    .nft_btn {
+        margin-left: -30px;
+    }
+    .nft_newbtn .btn {
+        font-size: 14px;
+        padding: 14px 0;
+    }
+    .nft h3 {
+        font-size: 23px;
+    }
+    .nft h5 {
+        font-size: 17px;
+    }
+    .learn_more h3 {
+        font-size: 30px;
+    }
+    .video_stream{
+        margin-bottom: 20px;
+    }
+    .market_btn .btn a {
+        font-size: 16px;
+    }
+    .market_btn.challenge_btn .btn {
+        width: 160px;
+        height: 50px;
+    }
+    .challenge .market_head {
+        margin-bottom: 35px;
+    }
+    ul.footer_icon li {
+        font-size: 40px;
+    }
+    footer .img-box img {
+        width: auto;
+        max-width: 100%;
+    }
+    .sec_padd {
+        padding: 40px 0;
+    }
+    ul.footer_nav li {
+        padding: 20px 15px 20px 15px;
+    }
+    ul.footer_nav li a {
+        font-size: 20px;
+    }
+    header .navbar li.nav-item .nav-link.star:before {
+        display: none;
+    }
+    header .navbar li.nav-item.logo {
+        display: none;
+    }
+    header .navbar li.nav-item {
+        padding: 0 0px;
+    }
+    .navbar-light .navbar-nav .nav-link {
+        color: #ffffff;
+    }
+    .navbar-light .navbar-toggler-icon {
+        background-image: url("../images/menu-icon.png");
+    }
+
+}
+
+
+
+
+@media screen and (max-width: 767px){   
+    .hero_sec  img.img-fluid.logo_img {
+        margin-top: -25px;
+    }
+    .hero_sec  img.img-fluid.logo_img {
+        max-width: 70%;
+    }
+    .hero_sec .txet_box h1 {
+        font-size: 25px;
+        margin-bottom: 15px;
+    }
+    .hero_sec .txet_box h4 {
+        font-size: 17px;
+    }
+    .hero_btn {
+        width: 200px
+    }
+    .hero_btn .btn {
+        width: 154px;
+    }
+    .hero_btn::after {
+        width: 44%;
+    }
+    .hero_btn::before {
+        width: 44%;
+    }
+    .hero_social li span.social_text {
+        padding: 8px 9px 6px 6px;
+        font-size: 15px;
+    }
+    .down_icon {
+        padding: 25px;
+    }
+    .hero_link li a {
+        font-size: 18px;
+    }
+    .hero_link {
+        text-align: center;
+        margin-top: 20px;
+    }
+    .about .img_box {
+        margin-bottom: 20px;
+    }
+    .earn_video {
+        display: none;
+    }
+    section.earn {
+        background-image: url(../images/play-earn.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .earn_content {
+        top: 0;
+        left: 0;
+        position: relative;
+        padding: 20px 15px;
+    }
+    .nft_btn {
+        margin-left: 0;
+    }
+    .nft_newbtn .btn {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+    .nft h3 {
+        font-size: 25px;
+    }
+    .nft_detail .text_box{
+        margin-bottom: 20px;
+    }
+    .gif_box img {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .video_head {
+        float: none;
+    }
+    .video_icon {
+        float: none;
+    }
+    .video_head h3 {
+        font-size: 18px;
+    }
+    .video_icon ul li {
+        padding-left: 0;
+        padding-right: 15px;
+    }
+    .main_video .img_box img {
+        max-width: 34%;
+    }
+    .main_video .img_box {
+        top: 9%;
+    }
+    .challenge .img_box {
+        margin-bottom: 20px;
+    }
+    .market_btn.challenge_btn .btn {
+        width: 200px;
+    }
+    ul.footer_icon li {
+        font-size: 35px;
+        padding: 25px 10px;
+    }
+    ul.footer_nav li {
+        padding: 10px 10px 10px 10px;
+    }
+    ul.footer_nav li a {
+        font-size: 17px;
+    }
+
+}
