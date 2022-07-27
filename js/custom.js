@@ -36,5 +36,23 @@ $(document).ready(function () {
   });
   
 
+
+
+
 });
 
+$(function () {
+  $('.fa-user').on('click',function () {
+    $('.fa-user').toggleClass('user_blue');
+});
+
+
+$('.fa-heart').on('click',function () {
+  $('.fa-heart').toggleClass('user_heart');
+});
+
+
+$('.fa-star').on('click',function () {
+  $('.fa-star').toggleClass('user_star');
+});
+});

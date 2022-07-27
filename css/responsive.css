@@ -177,7 +177,7 @@
     .social_icon i.fa-brands {
         font-size: 20px;
         width: 40px;
-        padding: 11px;
+        padding: 9px;
         height: 40px;
     }
     .header_video {
@@ -419,6 +419,9 @@
     }
     ul.footer_nav li a {
         font-size: 17px;
+    }
+    ul.hero_social {
+        text-align: center;
     }
 
 }

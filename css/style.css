@@ -715,14 +715,38 @@ transition: .4s ease-in-out;
     background-color: #014674;
     border: none;
     padding: 20px;
-    background-image: url(../images/emoji-icon.png);
-    background-position: 95% 50%;
-    background-repeat: no-repeat;
     color: #82BFE8;
+}
+.comment_here{
+    position: relative;
+}
+button.enter_btn {
+    background: #0099ff;
+    color: #fff;
+    position: absolute;
+    right: 0;
+    padding: 0 15px;
+    height: 100%;
+    border: 0;
+}
+.hide{
+    display: none;
+}
+.video_icon ul li{
+    cursor: pointer;
 }
 .comment_here input::placeholder{
     font-weight: 600;
     color: rgba(255, 255, 255, 0.3);
+}
+.user_blue{
+    color: #0099FF;
+}
+.user_heart{
+    color: #ff0000;
+}
+.user_star{
+    color:#ffc000;
 }
 .comment_here input:focus-visible {
     outline: -webkit-focus-ring-color auto 0px;
